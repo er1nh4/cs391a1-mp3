@@ -28,7 +28,7 @@ const StyledList = styled.li`
     text-align: center;
     font-size: calc(10px+ 2vw);
     font-family: "Arial Rounded MT Bold", "Helvetica", "Arial", sans-serif;
-    margin: 35px auto;
+    margin: 35px 20px;
     padding: 20px 40px;
     border: black solid 1px;
 
