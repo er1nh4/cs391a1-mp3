@@ -32,11 +32,11 @@ const StyledList = styled.li`
     padding: 20px 40px;
     
     border: black solid 1px;
-    border-radius: 35px;
+    border-radius: 25px;
 
     @media screen and (max-width: 750px) {
         margin: 0;
-        padding: 0;
+        padding: 5px 10px;
     }
 `;
 
