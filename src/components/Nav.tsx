@@ -26,9 +26,10 @@ const StyledUnorderedList = styled.ul`
 const StyledList = styled.li`
     float: left;
     text-decoration-line: none;
+    text-align: center;
     margin: 35px 30px;
+    padding: 20px 40px;
     border: black solid 1px;
-    align-items: center;
 `;
 
 export default function Nav() {
