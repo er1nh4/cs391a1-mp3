@@ -16,7 +16,7 @@ const StyledUnorderedList = styled.ul`
     padding-left: 0;
     display: flex;
     flex-direction: column;
-    align-content: space-around;
+    justify-content: space-between;
     
     @media screen and (max-width: 750px) {
         flex-direction: row;
@@ -27,7 +27,7 @@ const StyledList = styled.li`
     float: left;
     text-decoration: none;
     border: black solid 1px;
-    
+    align-items: center;
 `;
 
 export default function Nav() {
