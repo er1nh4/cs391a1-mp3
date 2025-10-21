@@ -35,7 +35,7 @@ const StyledList = styled.li`
     border-radius: 25px;
 
     @media screen and (max-width: 750px) {
-        margin-inline: 10px;
+        margin: 5px 5px;
         padding: 5px 10px;
     }
 `;
