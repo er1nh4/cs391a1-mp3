@@ -23,10 +23,10 @@ const StyledUnorderedList = styled.ul`
 const StyledList = styled.li`
     float: left;
     text-decoration: none;
-    background: blueviolet;
-    margin-right: 30px;
-    padding: 10px;
-    line-height: 150px;
+    border: black solid 1px;
+    
+    margin: 10px 15px;
+    
 `;
 
 export default function Nav() {
