@@ -24,9 +24,9 @@ const StyledList = styled.li`
     float: left;
     text-decoration: none;
     background: blueviolet;
-    margin-right: 30vw;
-    padding: 10vw;
-    line-height: 10px;
+    margin-right: 30px;
+    padding: 10px;
+    line-height: 150px;
 `;
 
 export default function Nav() {
