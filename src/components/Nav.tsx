@@ -26,7 +26,7 @@ const StyledUnorderedList = styled.ul`
 const StyledList = styled.li`
     float: left;
     text-align: center;
-    font-size: calc(10px+ 2vw);
+    font-size: calc(2vh+ 2vw);
     font-family: "Arial Rounded MT Bold", "Helvetica", "Arial", sans-serif;
     margin: 35px 20px;
     padding: 20px 40px;
