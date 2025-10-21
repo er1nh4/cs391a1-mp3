@@ -3,7 +3,6 @@ import styled from "styled-components";
 
 const StyledNav = styled.nav`
     width: 30%;
-    
     background: beige;
     
     @media screen and (max-width: 750px) {
@@ -30,6 +29,11 @@ const StyledList = styled.li`
     margin: 35px 30px;
     padding: 20px 40px;
     border: black solid 1px;
+
+    @media screen and (max-width: 750px) {
+        margin: 0 15px;
+        padding: 0 15px;
+    }
 `;
 
 export default function Nav() {
