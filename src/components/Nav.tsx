@@ -30,7 +30,9 @@ const StyledList = styled.li`
     font-family: "Arial Rounded MT Bold", "Helvetica", "Arial", sans-serif;
     margin: 35px 20px;
     padding: 20px 40px;
+    
     border: black solid 1px;
+    border-radius: 35px;
 
     @media screen and (max-width: 750px) {
         margin: 0;
