@@ -16,10 +16,10 @@ const StyledUnorderedList = styled.ul`
     padding-left: 0;
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     
     @media screen and (max-width: 750px) {
         flex-direction: row;
-        justify-content: space-between;
     }
 `;
 
@@ -35,7 +35,7 @@ const StyledList = styled.li`
     border-radius: 25px;
 
     @media screen and (max-width: 750px) {
-        margin: 0;
+        margin-inline: 10px;
         padding: 5px 10px;
     }
 `;
@@ -46,7 +46,7 @@ export default function Nav() {
             <StyledUnorderedList>
                 <StyledList><Link to={'/'}> Home </Link></StyledList>
                 <StyledList><Link to={'/education.html'}> Education </Link></StyledList>
-                <StyledList><Link to={'/employment.html'}> Employment History </Link></StyledList>
+                <StyledList><Link to={'/employment.html'}> Employment </Link></StyledList>
                 <StyledList><Link to={'/extracurriculars.html'}> Extracurriculars </Link></StyledList>
             </StyledUnorderedList>
         </StyledNav>
