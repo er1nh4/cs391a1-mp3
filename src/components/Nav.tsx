@@ -20,14 +20,23 @@ const StyledUnorderedList = styled.ul`
     }
 `;
 
+const StyledList = styled.li`
+    float: left;
+    text-decoration: none;
+    background: blueviolet;
+    margin-right: 30vw;
+    padding: 10vw;
+    line-height: 10px;
+`;
+
 export default function Nav() {
     return (
         <StyledNav>
             <StyledUnorderedList>
-                <li><Link to={'/'}> Home </Link></li>
-                <li><Link to={'/education.html'}> Education </Link></li>
-                <li><Link to={'/employment.html'}> Employment History </Link></li>
-                <li><Link to={'/extracurriculars.html'}> Extracurriculars </Link></li>
+                <StyledList><Link to={'/'}> Home </Link></StyledList>
+                <StyledList><Link to={'/education.html'}> Education </Link></StyledList>
+                <StyledList><Link to={'/employment.html'}> Employment History </Link></StyledList>
+                <StyledList><Link to={'/extracurriculars.html'}> Extracurriculars </Link></StyledList>
             </StyledUnorderedList>
         </StyledNav>
     )
