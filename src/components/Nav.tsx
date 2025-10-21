@@ -19,12 +19,14 @@ const StyledUnorderedList = styled.ul`
     
     @media screen and (max-width: 750px) {
         flex-direction: row;
+        justify-content: space-between;
     }
 `;
 
 const StyledList = styled.li`
     float: left;
-    text-decoration: none;
+    text-decoration-line: none;
+    margin: 35px 30px;
     border: black solid 1px;
     align-items: center;
 `;
