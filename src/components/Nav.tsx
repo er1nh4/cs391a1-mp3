@@ -27,9 +27,7 @@ const StyledList = styled.li`
     text-decoration: none;
     border: black solid 1px;
     
-    //margin: 10px 15px;
-    
-    margin: 10vw 15vh;
+    margin: 10px 15px;
     
 `;
 
