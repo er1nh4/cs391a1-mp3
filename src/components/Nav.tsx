@@ -13,6 +13,7 @@ const StyledNav = styled.nav`
 
 const StyledUnorderedList = styled.ul`
     list-style: none;
+    text-decoration: none;
     padding-left: 0;
     display: flex;
     flex-direction: column;
@@ -25,7 +26,6 @@ const StyledUnorderedList = styled.ul`
 
 const StyledList = styled.li`
     float: left;
-    text-decoration-line: none;
     text-align: center;
     margin: 35px 30px;
     padding: 20px 40px;
