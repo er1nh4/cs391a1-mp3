@@ -31,8 +31,8 @@ const StyledList = styled.li`
     border: black solid 1px;
 
     @media screen and (max-width: 750px) {
-        margin: 0 15px;
-        padding: 0 15px;
+        margin: 0;
+        padding: 0;
     }
 `;
 
