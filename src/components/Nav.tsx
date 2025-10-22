@@ -29,7 +29,7 @@ const StyledList = styled.li`
 
     font-size: calc(10px + 1.5vw);
     
-    margin: 5% auto;
+    margin: 15% auto;
     width: 80%;
     
     border: black solid 1px;
