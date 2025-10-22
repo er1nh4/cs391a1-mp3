@@ -8,11 +8,9 @@ const StyledPage = styled.main`
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
 `;
 
 const StyledDiv = styled.div`
-    padding: 0 5%;
     text-align: center;
     font-family: "Arial Rounded MT Bold", Arial, san-serif, serif;
 `;
@@ -36,6 +34,7 @@ export default function Home() {
                                 You will never love me again
                                 I can still hear you saying (still hear you saying)
                                 You would never break the chain (never break the chain)</p>
+
                         <p>     Chain keep us together (running in the shadow)
                                 Chain keep us together (running in the shadow)
                                 Chain keep us together (running in the shadow)
