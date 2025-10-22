@@ -7,7 +7,7 @@ const StyledPage = styled.main`
     flex-direction: column;
 `;
 
-export default function Experiences() {
+export default function Exployment() {
     return (
         <StyledPage id="main-page">
             <h3 id="main-title"> Experiences </h3>
