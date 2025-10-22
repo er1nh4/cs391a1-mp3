@@ -3,8 +3,6 @@ import styled from "styled-components";
 const StyledHome = styled.main`
     width: 70%;
     height: 100vh;
-    align-items: center;
-    justify-content: center;
 `;
 
 export default function Home() {
