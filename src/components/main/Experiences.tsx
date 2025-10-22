@@ -4,10 +4,7 @@ const StyledPage = styled.main`
     width: 70%;
     height: 100vh;
     display: flex;
-
-    @media screen and (max-width: 750px) {
-        align-items: center;
-    }
+    flex-direction: column;
 `;
 
 export default function Experiences() {
