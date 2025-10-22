@@ -44,7 +44,7 @@ const StyledList = styled.li`
 
 const StyledLink = styled(Link)`
     text-decoration: none;
-    color: cadetblue;
+    color: lightblue;
     font-family: "Arial Rounded MT Bold", Arial, sans-serif;
 `;
 
