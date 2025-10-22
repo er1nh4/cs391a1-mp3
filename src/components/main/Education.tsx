@@ -21,7 +21,7 @@ export default function Education() {
                 <h3 id="main-title"> Education </h3>
                 <div>
                     <h5><strong>Boston University</strong> | <em> B.A. in Computer Science </em></h5>
-                    <em>May 2027</em>
+                    <em>Expected May 2027</em>
                 </div>
             </StyledDiv>
         </StyledPage>
