@@ -44,7 +44,8 @@ const StyledList = styled.li`
 
 const StyledLink = styled(Link)`
     text-decoration: none;
-    font: cadetblue;
+    color: cadetblue;
+    font-family: "Arial Rounded MT Bold", Arial, sans-serif;
 `;
 
 export default function Nav() {
