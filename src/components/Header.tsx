@@ -2,16 +2,16 @@ import styled from "styled-components";
 
 const StyledHeader = styled.header`
     position: relative;
-    border-bottom: 1px solid cadetblue;
+    border-bottom: 1px solid #3e696a;
     background-color: lightblue;
-    color: cadetblue;
-    
+    color: #3e696a;
+
     font-family: "Arial Rounded MT Bold", Arial, san-serif, serif;
-    font-size: calc(2px+ 2vw);
-    
+    font-size: calc(2px + 2vw);
+
     display: grid;
     flex-direction: column;
-    
+
     @media screen and (max-width: 750px) {
         width: 100%;
         align-items: center;

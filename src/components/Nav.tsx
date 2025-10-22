@@ -4,12 +4,12 @@ import styled from "styled-components";
 const StyledNav = styled.nav`
     width: 30%;
     background-color: lightblue;
-    border-right: 1px solid cadetblue;
+    border-right: 1px solid #3e696a;
     
     @media screen and (max-width: 750px) {
         width: 100%;
         height: fit-content;
-        border-bottom: 1px solid cadetblue;
+        border-bottom: 1px solid #3e696a;
         border-right: none;
     }
 `;
@@ -35,7 +35,7 @@ const StyledList = styled.li`
     padding: 5%;
     width: 80%;
     
-    border: 1px solid cadetblue;
+    border: 1px solid #3e696a;
     border-radius: 25px;
     
     @media screen and (max-width: 750px) {
@@ -46,7 +46,7 @@ const StyledList = styled.li`
 
 const StyledLink = styled(Link)`
     text-decoration: none;
-    color: cadetblue;
+    color: #3e696a;
     font-family: "Arial Rounded MT Bold", Arial, sans-serif;
 `;
 
