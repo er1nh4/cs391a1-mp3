@@ -24,23 +24,22 @@ const StyledUnorderedList = styled.ul`
 
 const StyledList = styled.li`
     float: left;
-    text: cadetblue;
-    fill: blueviolet;
     text-align: center;
-
+    color: lightblue;
+    
     font-size: calc(10px + 1.5vw);
     
     margin: 15% auto;
-    padding: 10%;
+    padding: 5%;
     width: 80%;
     
-    border: black solid 3px;
+    border: black solid 1px;
     border-radius: 25px;
 `;
 
 const StyledLink = styled(Link)`
     text-decoration: none;
-    color: lightblue;
+    color: cadetblue;
     font-family: "Arial Rounded MT Bold", Arial, sans-serif;
 `;
 
