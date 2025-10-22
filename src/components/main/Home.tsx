@@ -16,7 +16,7 @@ const StyledDiv = styled.div`
     font-family: "Arial Rounded MT Bold", Arial, san-serif, serif;
 
     @media screen and (max-width: 700px) {
-        margin: 0 5%;
+        width: 100%;
         align-items: center;
         justify-content: center;
     }
