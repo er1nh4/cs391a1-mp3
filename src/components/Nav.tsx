@@ -3,11 +3,13 @@ import styled from "styled-components";
 
 const StyledNav = styled.nav`
     width: 30%;
-    background-color: cadetblue;
+    background-color: lightblue;
+    border-right: 1px solid cadetblue;
     
     @media screen and (max-width: 750px) {
         width: 100%;
         height: fit-content;
+        border-bottom: 1px solid cadetblue;
     }
 `;
 
@@ -32,7 +34,7 @@ const StyledList = styled.li`
     padding: 5%;
     width: 80%;
     
-    border: lightblue solid 1px;
+    border: 1px solid cadetblue;
     border-radius: 25px;
     
     @media screen and (max-width: 750px) {
@@ -43,7 +45,7 @@ const StyledList = styled.li`
 
 const StyledLink = styled(Link)`
     text-decoration: none;
-    color: lightblue;
+    color: cadetblue;
     font-family: "Arial Rounded MT Bold", Arial, sans-serif;
 `;
 
