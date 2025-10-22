@@ -7,6 +7,7 @@ const StyledNav = styled.nav`
     
     @media screen and (max-width: 750px) {
         width: 100%;
+        height: fit-content;
     }
 `;
 
