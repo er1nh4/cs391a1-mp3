@@ -28,7 +28,7 @@ const StyledList = styled.li`
     float: left;
     text-align: center;
     
-    font-size: calc(10px + 1.5vw);
+    font-size: calc(10px + 1.25vw);
     
     margin: 15% auto;
     padding: 5%;
@@ -56,7 +56,7 @@ export default function Nav() {
                 <StyledList><StyledLink to={'/'}> Home </StyledLink></StyledList>
                 <StyledList><StyledLink to={'/education.html'}> Education </StyledLink></StyledList>
                 <StyledList><StyledLink to={'/employment.html'}> Employment </StyledLink></StyledList>
-                <StyledList><StyledLink to={'/extracurriculars.html'}> Extracurriculars </StyledLink></StyledList>
+                <StyledList><StyledLink to={'/extracurriculars.html'}> Extracurricular </StyledLink></StyledList>
             </StyledUnorderedList>
         </StyledNav>
     )
