@@ -25,15 +25,16 @@ const StyledUnorderedList = styled.ul`
 const StyledList = styled.li`
     float: left;
     text: cadetblue;
+    fill: blueviolet;
     text-align: center;
 
     font-size: calc(10px + 1.5vw);
     
     margin: 15% auto;
-    padding: 5%;
+    padding: 10%;
     width: 80%;
     
-    border: black solid 1px;
+    border: black solid 3px;
     border-radius: 25px;
 `;
 
