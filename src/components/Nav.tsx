@@ -28,7 +28,7 @@ const StyledList = styled.li`
     text: cadetblue;
     text-align: center;
     text-decoration: none;
-    font-size: calc(2px + 1.5vw);
+    font-size: calc(10px + 1.5vw);
     
     margin: 35px 20px;
     padding: 20px 40px;
