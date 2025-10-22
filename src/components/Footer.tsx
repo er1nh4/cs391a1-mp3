@@ -8,7 +8,7 @@ const StyledFooter = styled.footer`
 export default function Footer() {
     return (
         <StyledFooter>
-            <p> All Rights Reserved by Erin Cho <Link to="../credits/credits.html"> Credits</Link> &copy;</p>
+            <p> All Rights Reserved by Erin Cho <Link to="/main/Home.tsx"> Credits</Link> &copy;</p>
             <div id="time-date"></div>
         </StyledFooter>
     )
