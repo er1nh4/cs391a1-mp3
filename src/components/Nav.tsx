@@ -25,7 +25,6 @@ const StyledUnorderedList = styled.ul`
 const StyledList = styled.li`
     float: left;
     text-align: center;
-    color: lightblue;
     
     font-size: calc(10px + 1.5vw);
     
@@ -33,13 +32,13 @@ const StyledList = styled.li`
     padding: 5%;
     width: 80%;
     
-    border: black solid 1px;
+    border: lightblue solid 1px;
     border-radius: 25px;
 `;
 
 const StyledLink = styled(Link)`
     text-decoration: none;
-    color: cadetblue;
+    color: lightblue;
     font-family: "Arial Rounded MT Bold", Arial, sans-serif;
 `;
 
