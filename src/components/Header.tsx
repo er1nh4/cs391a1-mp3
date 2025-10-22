@@ -3,7 +3,7 @@ import styled from "styled-components";
 const StyledHeader = styled.header`
     position: relative;
     background-color: lightblue;
-    color: darkgreen;
+    color: cadetblue;
     font-size: calc(2px+ 2vw);
     display: flex;
     flex-direction: column;
