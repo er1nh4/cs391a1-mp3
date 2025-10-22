@@ -34,6 +34,10 @@ const StyledList = styled.li`
     
     border: lightblue solid 1px;
     border-radius: 25px;
+    
+    @media screen and (max-width: 750px) {
+        margin: 0 auto;
+    }
 `;
 
 const StyledLink = styled(Link)`
