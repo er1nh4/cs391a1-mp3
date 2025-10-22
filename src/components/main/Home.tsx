@@ -12,6 +12,7 @@ const StyledPage = styled.main`
 
 const StyledDiv = styled.div`
     padding-left: 5%;
+    text-align: center;
     font-family: "Arial Rounded MT Bold", Arial, san-serif, serif;
 `;
 
@@ -22,28 +23,26 @@ export default function Home() {
         <>
             <title>Home | Erin's Resume</title>
             <StyledPage id="main-page" /*theme={themeContext!}*/>
-                <h3 id="main-title"> Home </h3>
                 <StyledDiv id="main">
-                    <div id="main-image"><img id="profile-pic" src={""} alt="Erin Cho"/></div>
+                    <h3 id="main-title"> Home </h3>
+                        <div id="main-image"><img id="profile-pic" src={""} alt="Erin Cho"/></div>
 
-                    <div id="main-text">
-                        <p>And if you don't love me now
-                            You will never love me again
-                            I can still hear you saying
-                            You would never break the chain (never break the chain)
-                            And if you don't love me now (you don't love me now)
-                            You will never love me again
-                            I can still hear you saying (still hear you saying)
-                            You would never break the chain (never break the chain)</p>
-                    </div>
+                        <p>     And if you don't love me now
+                                You will never love me again
+                                I can still hear you saying
+                                You would never break the chain (never break the chain)
+                                And if you don't love me now (you don't love me now)
+                                You will never love me again
+                                I can still hear you saying (still hear you saying)
+                                You would never break the chain (never break the chain)</p>
+                        <p>     Chain keep us together (running in the shadow)
+                                Chain keep us together (running in the shadow)
+                                Chain keep us together (running in the shadow)
+                                Chain keep us together (running in the shadow)
+                                Chain keep us together (running in the shadow)
+                                Chain
+                        </p>
                 </StyledDiv>
-                <p>Chain keep us together (running in the shadow)
-                    Chain keep us together (running in the shadow)
-                    Chain keep us together (running in the shadow)
-                    Chain keep us together (running in the shadow)
-                    Chain keep us together (running in the shadow)
-                    Chain
-                </p>
             </StyledPage>
         </>
     )
