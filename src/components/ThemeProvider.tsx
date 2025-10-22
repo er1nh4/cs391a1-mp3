@@ -1,18 +1,16 @@
-import {ThemeContext} from "./ThemeContext.tsx";
 import type {ReactNode} from "react";
+import {ThemeContext} from "./ThemeContext.tsx";
 
-export default function ThemeProvider({children} : {children: ReactNode}) {
-    const theme = {
-        color: "blue",
-        backgroundColor: "burlywood",
-        text: "black",
-        font:"bold small-caps calc(2px +2 vw) 'Time New Roman', serif",
-        margin:"0 auto",
-        padding:"2%"
+export default function ThemeProvider({children}: { children: ReactNode }) {
+    const mainTheme = {
+        display: "flex",
+        flexDirection: "column",
+        width: "70%",
+        height: "100vh"
     }
 
     return (
-        <ThemeContext.Provider value={theme}>
+        <ThemeContext.Provider value={mainTheme}>
             {children}
         </ThemeContext.Provider>
     )
