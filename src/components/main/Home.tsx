@@ -15,10 +15,8 @@ const StyledDiv = styled.div`
     text-align: center;
     font-family: "Arial Rounded MT Bold", Arial, san-serif, serif;
 
-    @media screen and (max-width: 700px) {
-        width: 100%;
-        align-items: center;
-        justify-content: center;
+    @media screen and (max-width: 750px) {
+        margin: 0 auto;
     }
 `;
 
