@@ -11,6 +11,7 @@ const StyledPage = styled.main`
 const StyledDiv = styled.div`
     text-align: center;
     font-family: "Arial Rounded MT Bold", Arial, san-serif, serif;
+    color: #3e696a;
 `;
 
 export default function Education() {
