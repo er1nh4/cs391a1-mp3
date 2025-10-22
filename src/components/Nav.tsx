@@ -30,6 +30,7 @@ const StyledList = styled.li`
     font-size: calc(10px + 1.5vw);
     
     margin: 15% auto;
+    padding: 5%;
     width: 80%;
     
     border: black solid 1px;
