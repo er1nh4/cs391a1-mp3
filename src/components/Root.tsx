@@ -12,14 +12,13 @@ const PageWrapper = styled.div`
     width: 80vw;
     height: 100vh;
     margin: 0 auto;
-    background: aquamarine;
 `;
 
 const ContentContainer = styled.div`
     width: 100%;
     display: flex;
     flex-direction: row;
-    background: beige;
+    background: #bce1f1;
     text-decoration: none;
     
     @media screen and (max-width: 750px) {
