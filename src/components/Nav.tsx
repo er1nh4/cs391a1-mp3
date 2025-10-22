@@ -42,7 +42,7 @@ const StyledList = styled.li`
         margin: 0 auto;
         padding: 1%;
         
-        border-right: 1px solid #3e696a;
+        border-inline-end: 1px solid #3e696a;
         border-radius: 0;
     }
 `;
