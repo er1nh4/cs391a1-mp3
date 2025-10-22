@@ -5,6 +5,12 @@ const StyledPage = styled.main`
     height: 100vh;
     display: flex;
     flex-direction: column;
+
+    @media screen and (max-width: 700px) {
+        padding: 0;
+        align-items: center;
+        justify-content: center;
+    }
 `;
 
 export default function Employment() {
