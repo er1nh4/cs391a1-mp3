@@ -4,7 +4,7 @@ import Nav from "./Nav.tsx";
 import Footer from "./Footer.tsx";
 import Home from "./main/Home.tsx";
 import Education  from "./main/Education.tsx";
-import Experiences from "./main/Experiences.tsx";
+import Employment from "./main/Employment.tsx";
 import Extracurriculars from "./main/Extracurriculars.tsx";
 import styled from "styled-components";
 
@@ -33,7 +33,7 @@ export default function Root() {
                 <Routes>
                     <Route path={'/'} element={<Home/>}/>
                     <Route path={'/education.html'} element={<Education/>}/>
-                    <Route path={'/experiences.html'} element={<Experiences/>}/>
+                    <Route path={'/experiences.html'} element={<Employment/>}/>
                     <Route path={'/extracurriculars.html'} element={<Extracurriculars/>}/>
                 </Routes>
             </ContentContainer>
