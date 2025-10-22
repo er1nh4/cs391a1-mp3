@@ -16,7 +16,6 @@ const StyledUnorderedList = styled.ul`
     padding-left: 0;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
     
     @media screen and (max-width: 750px) {
         flex-direction: row;
@@ -30,16 +29,11 @@ const StyledList = styled.li`
 
     font-size: calc(10px + 1.5vw);
     
-    margin: 35px 20px;
-    padding: 20px 40px;
+    margin: 5% auto;
+    width: 80%;
     
     border: black solid 1px;
     border-radius: 25px;
-
-    @media screen and (max-width: 750px) {
-        margin: 5px 5px;
-        padding: 5px 10px;
-    }
 `;
 
 const StyledLink = styled(Link)`
