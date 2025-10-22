@@ -9,6 +9,7 @@ const StyledHeader = styled.header`
     flex-direction: column;
     
     @media screen and (max-width: 750px) {
+        width: 100%;
         align-items: center;
         justify-content: center;
     }
