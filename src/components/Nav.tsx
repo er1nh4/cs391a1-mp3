@@ -10,6 +10,7 @@ const StyledNav = styled.nav`
         width: 100%;
         height: fit-content;
         border-bottom: 1px solid cadetblue;
+        border-right: none;
     }
 `;
 
