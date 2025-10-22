@@ -8,6 +8,7 @@ const StyledPage = styled.main`
     height: 100vh;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 `;
 
 const StyledDiv = styled.div`
