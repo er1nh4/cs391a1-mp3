@@ -10,6 +10,11 @@ const StyledPage = styled.main`
     flex-direction: column;
 `;
 
+const StyledDiv = styled.div`
+    padding-left: 5%;
+    font-family: "Arial Rounded MT Bold", Arial, san-serif, serif;
+`;
+
 export default function Home() {
     // const themeContext = useContext(ThemeContext);
 
@@ -18,7 +23,7 @@ export default function Home() {
             <title>Home | Erin's Resume</title>
             <StyledPage id="main-page" /*theme={themeContext!}*/>
                 <h3 id="main-title"> Home </h3>
-                <div id="main">
+                <StyledDiv id="main">
                     <div id="main-image"><img id="profile-pic" src={""} alt="Erin Cho"/></div>
 
                     <div id="main-text">
@@ -31,7 +36,7 @@ export default function Home() {
                             I can still hear you saying (still hear you saying)
                             You would never break the chain (never break the chain)</p>
                     </div>
-                </div>
+                </StyledDiv>
                 <p>Chain keep us together (running in the shadow)
                     Chain keep us together (running in the shadow)
                     Chain keep us together (running in the shadow)

@@ -7,6 +7,8 @@ const StyledPage = styled.main`
     flex-direction: column;
 `;
 
+
+
 export default function Extracurriculars() {
     return (
         <StyledPage id="main-page">

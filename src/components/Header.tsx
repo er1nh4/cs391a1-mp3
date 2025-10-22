@@ -17,11 +17,11 @@ const StyledHeader = styled.header`
 `;
 
 const StyledH1 = styled.h1`
-    padding-left: 10%;
+    padding-left: 5%;
 `;
 
 const StyledP = styled.p`
-    padding-left: 10%;
+    padding-left: 5%;
 `;
 
 export function Header(){
