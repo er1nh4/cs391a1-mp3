@@ -18,6 +18,10 @@ const StyledDiv = styled.div`
     color: #3e696a;
 `;
 
+const StyledImg = styled.img`
+    width: 80%;
+`;
+
 export default function Home() {
     // const themeContext = useContext(ThemeContext);
 
@@ -25,10 +29,9 @@ export default function Home() {
         <>
             <title>Home | Erin's Resume</title>
             <StyledPage id="main-page" /*theme={themeContext!}*/>
-                <div id="main-image"><img src="./echo_pfp.jpg" alt="Erin Cho"/></div>
                 <StyledDiv id="main">
                     <h3 id="main-title"> Home </h3>
-                    <div id="main-image"><img src={profilePic} alt="Erin Cho"/></div>
+                    <div id="main-image"><StyledImg src={profilePic} alt="Erin Cho"/></div>
 
                         <p>     And if you don't love me now
                                 You will never love me again
