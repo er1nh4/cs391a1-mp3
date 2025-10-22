@@ -18,7 +18,7 @@ export default function Employment() {
     return (
         <StyledPage id="main-page">
             <StyledDiv>
-                <h3 id="main-title"> Employment History </h3>
+                <h2 id="main-title"> Employment History </h2>
             </StyledDiv>
         </StyledPage>
     )

@@ -18,7 +18,7 @@ export default function Education() {
     return (
         <StyledPage id="main-page">
             <StyledDiv>
-                <h3 id="main-title"> Education </h3>
+                <h2 id="main-title"> Education </h2>
                 <div>
                     <h5><strong>Boston University</strong> | <em> B.A. in Computer Science </em></h5>
                     <em>Expected May 2027</em>
