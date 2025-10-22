@@ -8,6 +8,8 @@ const StyledPage = styled.main`
     height: 100vh;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 `;
 
 const StyledDiv = styled.div`
@@ -17,8 +19,6 @@ const StyledDiv = styled.div`
 
     @media screen and (max-width: 700px) {
         margin: 0 5%;
-        align-items: center;
-        justify-content: center;
     }
 `;
 
