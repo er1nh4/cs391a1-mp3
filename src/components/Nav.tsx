@@ -36,14 +36,11 @@ const StyledList = styled.li`
     width: 80%;
     
     border: 1px solid #3e696a;
-    border-radius: 25px;
+    border-radius: 5px;
     
     @media screen and (max-width: 750px) {
         margin: 0 auto;
         padding: 1%;
-        
-        border-inline-end: 1px solid #3e696a;
-        border-radius: 0;
     }
 `;
 
