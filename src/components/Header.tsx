@@ -2,10 +2,13 @@ import styled from "styled-components";
 
 const StyledHeader = styled.header`
     position: relative;
+    border-bottom: 1px solid cadetblue;
     background-color: lightblue;
     color: cadetblue;
+    
     font-family: "Arial Rounded MT Bold", Arial, san-serif, serif;
     font-size: calc(2px+ 2vw);
+    
     display: grid;
     flex-direction: column;
     
