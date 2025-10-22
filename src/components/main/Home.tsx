@@ -14,10 +14,6 @@ const StyledDiv = styled.div`
     padding: 0 5%;
     text-align: center;
     font-family: "Arial Rounded MT Bold", Arial, san-serif, serif;
-
-    @media screen and (max-width: 750px) {
-        margin: 0 auto;
-    }
 `;
 
 export default function Home() {

@@ -6,7 +6,7 @@ const StyledHeader = styled.header`
     color: cadetblue;
     font-family: "Arial Rounded MT Bold", Arial, san-serif, serif;
     font-size: calc(2px+ 2vw);
-    display: flex;
+    display: grid;
     flex-direction: column;
     
     @media screen and (max-width: 750px) {
