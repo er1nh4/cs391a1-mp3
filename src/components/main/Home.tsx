@@ -26,7 +26,7 @@ export default function Home() {
             <StyledPage id="main-page" /*theme={themeContext!}*/>
                 <StyledDiv id="main">
                     <h3 id="main-title"> Home </h3>
-                        <div id="main-image"><img id="profile-pic" src={"../../echo_pfp.jpg"} alt="Erin Cho"/></div>
+                        <div id="main-image"><img id="profile-pic" src={'../src/echo_pfp.jpg'} alt="Erin Cho"/></div>
 
                         <p>     And if you don't love me now
                                 You will never love me again
