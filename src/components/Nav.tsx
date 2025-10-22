@@ -13,7 +13,6 @@ const StyledNav = styled.nav`
 
 const StyledUnorderedList = styled.ul`
     list-style: none;
-    text-decoration: none;
     padding-left: 0;
     display: flex;
     flex-direction: column;
@@ -26,9 +25,11 @@ const StyledUnorderedList = styled.ul`
 
 const StyledList = styled.li`
     float: left;
+    text: cadetblue;
     text-align: center;
-    font-size: calc(2vh+ 2vw);
-    font-family: "Arial Rounded MT Bold", "Helvetica", "Arial", sans-serif;
+    text-decoration: none;
+    font-size: calc(4vw + 4vh + 2vmin);
+    
     margin: 35px 20px;
     padding: 20px 40px;
     
