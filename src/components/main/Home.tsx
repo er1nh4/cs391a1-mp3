@@ -19,7 +19,7 @@ const StyledDiv = styled.div`
 `;
 
 const StyledImg = styled.img`
-    width: 80%;
+    width: 40%;
 `;
 
 export default function Home() {
@@ -33,14 +33,7 @@ export default function Home() {
                     <h3 id="main-title"> Home </h3>
                     <div id="main-image"><StyledImg src={profilePic} alt="Erin Cho"/></div>
 
-                        <p>     And if you don't love me now
-                                You will never love me again
-                                I can still hear you saying
-                                You would never break the chain (never break the chain)
-                                And if you don't love me now (you don't love me now)
-                                You will never love me again
-                                I can still hear you saying (still hear you saying)
-                                You would never break the chain (never break the chain)</p>
+                        <p>     Hi! My name is Erin a</p>
 
                         <p>     Chain keep us together (running in the shadow)
                                 Chain keep us together (running in the shadow)
