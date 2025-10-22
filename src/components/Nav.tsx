@@ -3,6 +3,7 @@ import styled from "styled-components";
 
 const StyledNav = styled.nav`
     width: 30%;
+    background-color: cadetblue;
     
     @media screen and (max-width: 750px) {
         width: 100%;

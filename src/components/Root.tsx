@@ -19,7 +19,7 @@ const ContentContainer = styled.div`
     width: 100%;
     display: flex;
     flex-direction: row;
-    background: blue;
+    background: beige;
     
     @media screen and (max-width: 750px) {
         flex-direction: column;
