@@ -2,6 +2,7 @@
 // import {useContext} from "react";
 // import type {ThemeTypes} from "../../types";
 import styled from "styled-components";
+import profilePic from "./echo_pfp.jpg";
 
 const StyledPage = styled.main`
     width: 70%;
@@ -27,6 +28,7 @@ export default function Home() {
                 <div id="main-image"><img src="./echo_pfp.jpg" alt="Erin Cho"/></div>
                 <StyledDiv id="main">
                     <h3 id="main-title"> Home </h3>
+                    <div id="main-image"><img src={profilePic} alt="Erin Cho"/></div>
 
                         <p>     And if you don't love me now
                                 You will never love me again
