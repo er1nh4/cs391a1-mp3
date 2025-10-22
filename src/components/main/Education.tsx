@@ -20,7 +20,7 @@ export default function Education() {
             <StyledDiv>
                 <h3 id="main-title"> Education </h3>
                 <div>
-                    <h5><strong>Boston University</strong> | <em><u> B.A. in Computer Science </u></em></h5>
+                    <h5><strong>Boston University</strong> | <em> B.A. in Computer Science </em></h5>
                     <em>May 2027</em>
                 </div>
             </StyledDiv>
