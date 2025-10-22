@@ -41,6 +41,9 @@ const StyledList = styled.li`
     @media screen and (max-width: 750px) {
         margin: 0 auto;
         padding: 1%;
+        
+        border-right: 1px solid #3e696a;
+        border-radius: 0;
     }
 `;
 
