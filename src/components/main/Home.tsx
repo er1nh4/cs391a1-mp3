@@ -11,7 +11,7 @@ const StyledPage = styled.main`
 `;
 
 const StyledDiv = styled.div`
-    padding-left: 5%;
+    padding: 0 5%;
     text-align: center;
     font-family: "Arial Rounded MT Bold", Arial, san-serif, serif;
 `;
