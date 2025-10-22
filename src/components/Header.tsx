@@ -16,12 +16,20 @@ const StyledHeader = styled.header`
     }
 `;
 
+const StyledH1 = styled.h1`
+    padding-left: 10%;
+`;
+
+const StyledP = styled.p`
+    padding-left: 10%;
+`;
+
 export function Header(){
     return (
         <StyledHeader>
             <div>
-                <h1>Erin Cho</h1>
-                <p>My Online Resume</p></div>
+                <StyledH1>Erin Cho</StyledH1>
+                <StyledP>My Online Resume</StyledP></div>
         </StyledHeader>
     )
 }
