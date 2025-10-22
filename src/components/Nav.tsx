@@ -37,7 +37,7 @@ const StyledList = styled.li`
     
     @media screen and (max-width: 750px) {
         margin: 0 auto;
-        padding: 5% 0;
+        padding: 0;
     }
 `;
 
