@@ -10,6 +10,7 @@ import styled from "styled-components";
 
 const PageWrapper = styled.div`
     width: 80vw;
+    height: 100vh;
     margin: 0 auto;
     background: aquamarine;
 `;
@@ -18,6 +19,7 @@ const ContentContainer = styled.div`
     width: 100%;
     display: flex;
     flex-direction: row;
+    background: blue;
     
     @media screen and (max-width: 750px) {
         flex-direction: column;
@@ -33,7 +35,7 @@ export default function Root() {
                 <Routes>
                     <Route path={'/'} element={<Home/>}/>
                     <Route path={'/education.html'} element={<Education/>}/>
-                    <Route path={'/experiences.html'} element={<Employment/>}/>
+                    <Route path={'/employment.html'} element={<Employment/>}/>
                     <Route path={'/extracurriculars.html'} element={<Extracurriculars/>}/>
                 </Routes>
             </ContentContainer>
