@@ -41,6 +41,8 @@ export default function Extracurriculars() {
                         <p> ● Train and assist in 2-hour lab component for CC 111: Core
                                 Natural Sciences I.<br/>
                             ● Cohost weekly study sessions.<br/></p>
+                    </StyledList>
+                    <StyledList>
                         <h3>Boston University Art4TheHeart Creative Team</h3>
                         <h4><em> September 2025 - Present </em></h4>
                     </StyledList>
