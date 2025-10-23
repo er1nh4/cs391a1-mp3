@@ -1,3 +1,4 @@
+import Calculator from "../calculator/Calculator.tsx";
 import styled from "styled-components";
 
 const StyledPage = styled.main`
@@ -15,16 +16,12 @@ const StyledDiv = styled.div`
 `;
 
 export default function Projects(){
-
     return (
         <>
             <StyledPage>
                 <h2> Projects </h2>
                 <StyledDiv>
-                    <label htmlFor="one">Give me a number: </label><input id="one"/>
-                    <label htmlFor="two">Give me a number: </label><input id="two"/>
-                    <button>+</button>
-                    <h4 id="output"></h4>
+                    <Calculator/>
                 </StyledDiv>
             </StyledPage>
         </>
