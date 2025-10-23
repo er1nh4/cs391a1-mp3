@@ -1,6 +1,3 @@
-// import {ThemeContext} from "../ThemeContext.tsx";
-// import {useContext} from "react";
-// import type {ThemeTypes} from "../../types";
 import styled from "styled-components";
 import profilePic from "./echo_pfp.jpg";
 
@@ -28,7 +25,7 @@ export default function Home() {
     return (
         <>
             <title>Home | Erin's Resume</title>
-            <StyledPage id="main-page" /*theme={themeContext!}*/>
+            <StyledPage id="main-page">
                 <StyledDiv id="main">
                     <h3 id="main-title"> Home </h3>
                     <div id="main-image"><StyledImg src={profilePic} alt="Erin Cho"/></div>

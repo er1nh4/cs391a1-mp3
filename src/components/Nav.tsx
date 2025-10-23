@@ -58,6 +58,7 @@ export default function Nav() {
                 <StyledList><StyledLink to={'/'}> Home </StyledLink></StyledList>
                 <StyledList><StyledLink to={'/education.html'}> Education </StyledLink></StyledList>
                 <StyledList><StyledLink to={'/employment.html'}> Employment </StyledLink></StyledList>
+                <StyledList><StyledLink to={'/projects.html'}> Projects </StyledLink></StyledList>
                 <StyledList><StyledLink to={'/extracurriculars.html'}> Extracurricular </StyledLink></StyledList>
             </StyledUnorderedList>
         </StyledNav>
