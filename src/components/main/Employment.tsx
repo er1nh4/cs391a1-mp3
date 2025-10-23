@@ -49,7 +49,7 @@ export default function Employment() {
                     </StyledList>
                     <StyledList>
                         <h3>New York Tutoring Center — Coding Instructor</h3>
-                        <h4><em> May - July 2025 </em></h4>
+                        <h4><em> May 2025 - July 2025 </em></h4>
                         <p> ● Served as a junior teacher for elementary and middle school
                                 students attending introductory coding camp in Python. <br/>
                             ● Assisted the head teacher with lesson plan development in
@@ -64,7 +64,7 @@ export default function Employment() {
                     </StyledList>
                     <StyledList>
                         <h3>Google — Software Engineering Intern, STEP</h3>
-                        <h4><em> May - August 2024 </em></h4>
+                        <h4><em> May 2024 - August 2024 </em></h4>
                         <p> ● Engineered a secure alerting service to support Google Web
                                 Search EngProd’s continuous build integration tests,
                                 replacing deprecated infrastructure to ensure stability
@@ -82,7 +82,7 @@ export default function Employment() {
                     </StyledList>
                     <StyledList>
                         <h3>YouTube — Software Engineering Intern, STEP</h3>
-                        <h4><em> June - September 2023 </em></h4>
+                        <h4><em> June 2023 - September 2023 </em></h4>
                         <p> ● Delivered a high-impact feature, Variable Timeout, supporting
                                 user moderation for creators and privileged users across the
                                 YouTube Live Chat experience.<br/>
