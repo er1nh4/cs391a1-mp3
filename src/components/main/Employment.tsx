@@ -6,6 +6,7 @@ const StyledPage = styled.main`
     display: flex;
     flex-direction: column;
     padding: 0 5%;
+    overflow-y: scroll;
 `;
 
 const StyledDiv = styled.div`
@@ -30,7 +31,7 @@ export default function Employment() {
         <StyledPage id="main-page">
             <StyledDiv>
                 <h2>Employment History</h2>
-                <StyledUnorderedList>
+                <StyledUnorderedList id="job-list">
                     <StyledList>
                         <h3>Match Charter Public High School — Face To Face Tutor</h3>
                         <h4><em> September 2025 - Present </em></h4>
