@@ -6,6 +6,7 @@ const StyledPage = styled.main`
     display: flex;
     flex-direction: column;
     padding: 0 5%;
+    overflow: visible;
 `;
 
 const StyledDiv = styled.div`
