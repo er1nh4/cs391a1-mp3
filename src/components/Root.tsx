@@ -5,7 +5,7 @@ import Footer from "./Footer.tsx";
 import Home from "./main/Home.tsx";
 import Education  from "./main/Education.tsx";
 import Employment from "./main/Employment.tsx";
-import Projects from "./main/Projects.ts";
+import Projects from "./main/Projects.tsx";
 import Extracurriculars from "./main/Extracurriculars.tsx";
 import styled from "styled-components";
 
