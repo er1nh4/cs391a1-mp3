@@ -19,6 +19,7 @@ export default function Projects(){
     return (
         <>
             <StyledPage>
+                <h2> Projects </h2>
                 <StyledDiv>
                     <label htmlFor="one">Give me a number: </label><input id="one"/>
                     <label htmlFor="two">Give me a number: </label><input id="two"/>

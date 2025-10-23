@@ -7,12 +7,15 @@ import Education  from "./main/Education.tsx";
 import Employment from "./main/Employment.tsx";
 import Projects from "./main/Projects.tsx";
 import Extracurriculars from "./main/Extracurriculars.tsx";
-import styled from "styled-components";
+import styled, {createGlobalStyle} from "styled-components";
 
-const PageWrapper = styled.div`
-    width: 80vw;
-    height: 100vh;
-    margin: 0 auto;
+const GlobalStyle = createGlobalStyle`
+    body {
+        width: 80vw;
+        height: 100vh;
+        margin: 0 auto;
+        box-sizing: border-box;
+    }
 `;
 
 const ContentContainer = styled.div`
@@ -31,7 +34,7 @@ const ContentContainer = styled.div`
 
 export default function Root() {
     return (
-        <PageWrapper>
+        <GlobalStyle>
             < Header/>
             <ContentContainer id="RootCC">
                 <Nav/>
@@ -44,6 +47,6 @@ export default function Root() {
                 </Routes>
             </ContentContainer>
             <Footer/>
-        </PageWrapper>
+        </GlobalStyle>
     )
 }
