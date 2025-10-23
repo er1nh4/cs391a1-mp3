@@ -23,6 +23,10 @@ const StyledList = styled.li`
     margin: 5% auto;
     padding: 0 5%;
     border-left: 1px solid #3e696a;
+
+    @media screen and (max-width: 750px) {
+        margin: 2% auto;
+    }
 `;
 
 export default function Employment() {
