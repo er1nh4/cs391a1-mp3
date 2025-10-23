@@ -12,7 +12,6 @@ const PageWrapper = styled.div`
     width: 80vw;
     height: 100vh;
     margin: 0 auto;
-    overflow: auto;
 `;
 
 const ContentContainer = styled.div`
@@ -21,6 +20,7 @@ const ContentContainer = styled.div`
     display: flex;
     flex-direction: row;
     background: #e9f8f8;
+    overflow: scroll;
 
     @media screen and (max-width: 750px) {
         flex-direction: column;
@@ -32,7 +32,7 @@ export default function Root() {
     return (
         <PageWrapper>
             < Header/>
-            <ContentContainer>
+            <ContentContainer id="RootCC">
                 <Nav/>
                 <Routes>
                     <Route path={'/'} element={<Home/>}/>
