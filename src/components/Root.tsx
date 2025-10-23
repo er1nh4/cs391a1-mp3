@@ -22,6 +22,7 @@ const ContentContainer = styled.div`
 
     @media screen and (max-width: 750px) {
         flex-direction: column;
+        align-items: center;
     }
 `;
 
