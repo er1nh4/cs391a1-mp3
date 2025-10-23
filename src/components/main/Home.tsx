@@ -6,11 +6,10 @@ import profilePic from "./echo_pfp.jpg";
 
 const StyledPage = styled.main`
     width: 70%;
-    height: 100vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
     padding: 0 5%;
-    overflow: hidden;
 `;
 
 const StyledDiv = styled.div`
