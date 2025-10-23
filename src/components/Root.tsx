@@ -18,7 +18,6 @@ const ContentContainer = styled.div`
     width: 100%;
     display: flex;
     flex-direction: row;
-    align-items: center;
     background: #e9f8f8;
 
     @media screen and (max-width: 750px) {
