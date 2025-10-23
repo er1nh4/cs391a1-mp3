@@ -20,7 +20,6 @@ const ContentContainer = styled.div`
     display: flex;
     flex-direction: row;
     background: #e9f8f8;
-    overflow: scroll;
 
     @media screen and (max-width: 750px) {
         flex-direction: column;
