@@ -16,11 +16,12 @@ const StyledDiv = styled.div`
 
 const StyledUnorderedList = styled.ul`
     list-style: none;
-    padding-left: 2%;
 `;
 
 const StyledList = styled.li`
     text-align: left;
+    margin: 5% auto;
+    padding: 0 5%;
     border-left: 1px solid #3e696a;
 `;
 
