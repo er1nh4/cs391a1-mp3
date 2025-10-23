@@ -19,8 +19,8 @@ export default function Employment() {
         <StyledPage id="main-page">
             <StyledDiv>
                 <h2 id="main-title"> Employment History </h2>
-                    <h3><strong>Match Charter Public High School</strong> |Face-To-Face Tutor</h3>
-                    <h4><em> September 2025 - Present </em></h4>
+                    <h3>Match Charter Public High School</h3>
+                    <h4> Face-To-Face Tutor <em> September 2025 - Present </em></h4>
                     <p> On top of my studies and supporting-education roles, I'm also
                         very excited about second-hand fashion, fabric crafts, and jewelry-making.
                         I love sharing my insights and my work to those around me, and I plan on
