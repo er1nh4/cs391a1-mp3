@@ -2,7 +2,8 @@ import {Link} from "react-router";
 import styled from "styled-components";
 
 const StyledFooter = styled.footer`
-    background-color: coral;
+    background-color: #3e696a;
+    font-family: "Arial Rounded MT Bold", Arial, sans-serif, serif;
 `;
 
 export default function Footer() {
