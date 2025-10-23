@@ -12,6 +12,7 @@ const PageWrapper = styled.div`
     width: 80vw;
     height: 100vh;
     margin: 0 auto;
+    overflow: auto;
 `;
 
 const ContentContainer = styled.div`
