@@ -19,6 +19,7 @@ const ContentContainer = styled.div`
     height: 100vh;
     display: flex;
     flex-direction: row;
+    overflow: scroll;
     background: #e9f8f8;
 
     @media screen and (max-width: 750px) {
