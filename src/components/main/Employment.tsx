@@ -6,10 +6,11 @@ const StyledPage = styled.main`
     display: flex;
     flex-direction: column;
     padding: 0 5%;
+    text-align: center;
 `;
 
 const StyledDiv = styled.div`
-    text-align: center;
+    text-align: left;
     font-family: "Arial Rounded MT Bold", Arial, san-serif, serif;
     color: #3e696a;
 `;
@@ -17,8 +18,8 @@ const StyledDiv = styled.div`
 export default function Employment() {
     return (
         <StyledPage id="main-page">
+            <h2 id="main-title"> Employment History </h2>
             <StyledDiv>
-                <h2 id="main-title"> Employment History </h2>
                     <h3>Match Charter Public High School</h3>
                     <h4> Face-To-Face Tutor <em> September 2025 - Present </em></h4>
                     <p> On top of my studies and supporting-education roles, I'm also
